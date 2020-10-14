@@ -26,8 +26,6 @@ function hideLightbox() {
     lightbox.classList.remove('visible');
 }
 
-
-
 next.addEventListener('click', function () 
 { 
     hideLightbox();
