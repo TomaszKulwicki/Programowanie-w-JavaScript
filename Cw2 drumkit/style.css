@@ -6,11 +6,11 @@ body{
 #guziki{
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 
 #kontener{
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 #przyciski{
@@ -25,6 +25,9 @@ kbd{
     border: 1px solid black;
 }
 
-kbd:active {
-    background-color: yellow;
-  }
+button{
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
