@@ -1,26 +1,30 @@
-html {
-    font-size: 50px;
-  }
-  
-body,html {
-    margin: 0;
-    padding: 0;
-  }
+body{
+    font-size: 20px;
+    font-family: 'Lucida Console';
+}
+
+#guziki{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#kontener{
+    padding-top: 150px;
+}
 
 #przyciski{
-    margin: 0;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#przyciski2{
-    margin: 0;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+kbd{
+    border-radius: 20px;
+    padding: 4px;
+    border: 1px solid black;
 }
+
+kbd:active {
+    background-color: yellow;
+  }
