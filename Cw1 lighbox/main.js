@@ -3,8 +3,8 @@ const lightbox = document.querySelector('.lightbox');
 const prev = document.querySelector('#prev');
 const next = document.querySelector('#next');
 const zamknij = document.querySelector('#zamknij');
-let prevImg;
-let nextImg;
+let prevImg;    //adresy sasiednich zdjec
+let nextImg;    
 
 for (let idx = 0; idx < images.length; idx++) {
     const img = images[idx];
@@ -17,8 +17,8 @@ function showLightbox(ev) {
     const imgUrl = ev.target.src;
     img.src = imgUrl;
     lightbox.classList.add('visible');
-    prevImg = ev.target.previousElementSibling;
-    nextImg = ev.target.nextElementSibling;
+    prevImg = ev.target.previousElementSibling; //przypisywanie adresow sasiednich zdjec
+    nextImg = ev.target.nextElementSibling;     //
 }
 
 zamknij.addEventListener('click',hideLightbox);
@@ -29,8 +29,8 @@ function hideLightbox() {
 next.addEventListener('click', function () 
 { 
     hideLightbox();
-    if(nextImg){
-        nextImg.click();
+    if(nextImg){            
+        nextImg.click();    //click powoduje pojawienie sie lightboxa
     }
     else
     { 
@@ -47,7 +47,7 @@ prev.addEventListener('click', function ()
     }
     else
     { 
-        images[images.length - 1].click();  // sprawdzenie czy obecne zdjecie jest pierwszym  w kolejnosci, jesli tak to nastepuje zawiniecie
+        images[images.length - 1].click();  // sprawdzenie czy obecne zdjecie jest pierwszym  w kolejnosci, jesli tak to nastepuje zawiniecie do ostatniego
     }
 }
 );

@@ -1,0 +1,26 @@
+html {
+    font-size: 50px;
+  }
+  
+body,html {
+    margin: 0;
+    padding: 0;
+  }
+
+#przyciski{
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#przyciski2{
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
