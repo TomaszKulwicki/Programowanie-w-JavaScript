@@ -1,0 +1,22 @@
+button{
+    padding: 7px;
+    height: 40px;
+    width: 151px;
+}
+
+fieldset{
+    padding: 20px;
+    margin: 20px;
+}
+
+textarea, input{
+    min-width: 300px;
+}
+
+textarea{
+    min-height: 100px;
+}
+
+input{
+    min-height: 20px;
+}
