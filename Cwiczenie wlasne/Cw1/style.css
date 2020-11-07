@@ -1,0 +1,55 @@
+/* <!-- 
+1. stworzyć plik index.html i strukturę dokumentu
+2. stworzyć przycisk w html
+3. ostylować przycisk i kwadraty, które będę tworzone
+JAVASCRIPT
+1. pobrać przycisk i podpiąć do niego nasłuchiwanie na click
+2. zadeklarować funkcję
+3. w funkcji stworzyć element html (div)
+4. dodać div do strony
+5. stworzyć licznik i uzupełnić zawartość elementu div o wartość licznika
+6. za pomocą instrukcji warunkowej stwierdzić czy dany element jest 5, jeśli tak nadać mu inną klasę 
+--> */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	cursor:pointer;
+	color: white;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    display: block;
+}
+
+.kolko{
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    align-content: center;
+    color: black;
+    float: left;
+    margin: 10px;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-content: center;
+    float: left;
+    margin: 10px;
+    line-height: 100px;
+}
