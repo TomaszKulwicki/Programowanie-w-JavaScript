@@ -1,7 +1,7 @@
 document.body.addEventListener('keypress', onKeyPress);
 document.querySelector('#recordBtn').addEventListener('click', onRecordBtnClick);
 document.querySelector('#playBtn').addEventListener('click', onPlayBtnClick);
-document.querySelector('#stopBtn').addEventListener('click', onStopBtnClick);
+// document.querySelector('#stopBtn').addEventListener('click', onStopBtnClick);
 
 let recordStartTime;
 const recordedSounds = [];
@@ -50,10 +50,6 @@ function onKeyPress(ev) {
 
 function onRecordBtnClick() {
     recordStartTime = Date.now();
-}
-
-function onStopBtnClick() {
-    MediaRecorder.stop();
 }
 
 function onPlayBtnClick() {
