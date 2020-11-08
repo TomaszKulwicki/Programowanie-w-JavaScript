@@ -4,9 +4,7 @@ body{
 }
 
 #wpisywanie{
-    display: flex;
-    text-align: center;
-    justify-content: center;
+    position: relative;
     height: 300px;
     width: 600px;
     border-radius: 20px;
@@ -17,11 +15,14 @@ body{
 }
 
 #dodawanie{
+    position: absolute;
     height: 30px;
     border-radius: 10px;
     background-color:#44c767;
     text-decoration:none;
-    margin-top: 260px;
+    right: 50%;
+    transform: translate(+50%);
+    margin-top: 200px;
     cursor:pointer;
 }
 
@@ -32,4 +33,19 @@ body{
     border-radius: 20px;
     float: left;
     margin: 10px;
+}
+
+#tytul, #tresc{
+    position: absolute;
+    height: 30px;
+    width: 550px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#kolor{
+    position: absolute;
+    right: 50%;
+    transform: translate(+50%);
+    margin-top: 150px;
 }
