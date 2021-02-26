@@ -1,0 +1,53 @@
+body{
+  background-color: white;
+  height: 1000vh;
+}
+
+.miasto{
+  position: absolute;
+  height: 30px;
+  border-radius: 10px;
+  background-color:#44c767;
+  text-decoration:none;
+  right: 50%;
+  transform: translate(+50%);
+  margin-top: 200px;
+  cursor:pointer;
+}
+
+#search{
+  position: relative;
+  height: 300px;
+  width: 600px;
+  border-radius: 20px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+#miasto{
+  height: 30px;
+  width: 550px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+#content{
+  width: 100%;
+  display: flex;
+}
+
+.weatherbox{
+  width: 230px;
+  height: 300px;
+  margin: 10px 10px 10px 10px;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 10px;
+  float: left;
+}
+
+.deleteButton{
+  border-radius: 20px;
+}
