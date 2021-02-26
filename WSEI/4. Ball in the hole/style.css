@@ -1,0 +1,46 @@
+#hole {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: -2;
+    position: absolute;
+    background-color: black;
+}
+
+#ball {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background:rgb(38, 214, 141);
+    position: absolute;
+} 
+
+body{
+    margin: 0;
+}
+
+#start, #winner {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #555555;
+    padding: 14px 40px;
+    width: 250px;
+    border: none;
+}
+
+#timer{
+    margin: 0;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #555555;
+    padding: 14px 40px;
+    width: 150px;
+    border: none;
+}
