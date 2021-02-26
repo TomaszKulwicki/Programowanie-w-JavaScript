@@ -1,0 +1,33 @@
+body{
+    font-size: 20px;
+    font-family: 'Lucida Console';
+}
+
+#guziki{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#kontener{
+    padding-top: 100px;
+}
+
+#przyciski{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+kbd{
+    border-radius: 20px;
+    padding: 4px;
+    border: 1px solid black;
+}
+
+button{
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
